@@ -1,9 +1,37 @@
+body{
+    background-image: url(./images/me.JPG);
+    background-size: contain;
+}
+
+h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: x-large;
+}
+
+p{
+    font-family: "Times New Roman", Times, serif;
+    font-size: large
+}
+
+
 #content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    width: 800px;
+    background:white;
 }
 
 #greeting-container {
   margin-top: 20px;
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
